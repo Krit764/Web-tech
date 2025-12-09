@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="navbar">
+        <div class="navbar-links">
+            <a href="../index.php">Home</a>
+            <div class="dropdown">
+                <a href="#">Others ⏬</a>
+                <div class="dropdown-content">
+                    <a href="box.html">Task 1 : Colored Box</a>
+                    <a href="login.html">Task 2 : Login Form</a>
+                    <a href="table.html">Task 3 : Zebra Color Table</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <form class="form" action="server.php" method="post">
+        <div class="Formcontainer">
+            <div class="Usercontainer">
+                <label for="UserName">UserName:</label>
+                <input type="text" id="UserName" name="UserName" placeholder="Enter UserName">
+            </div>
+
+            <div class="passwordcontainer">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter a password ">
+            </div>
+
+            <div class="checkcontainer">
+                <input type="checkbox">
+                <label for="remember">Remember me</label>
+            </div>
+            <div class="logincontainer">
+                <input type="submit" value="login">
+            </div>
+        </div>
+    </form>
+</body>
+
+
+</html>
