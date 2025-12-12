@@ -17,28 +17,6 @@ Output:
 a = 10, b = 5
 
 
-Swap two variables without using a third variable
-
-Sort an array (any method)
-1. Swap Two Variables Without Using a Third Variable
-PHP Code (Arithmetic Method)
-<?php
-$a = 5;
-$b = 10;
-
-$a = $a + $b;
-$b = $a - $b;
-$a = $a - $b;
-
-echo "a = $a, b = $b";
-?>
-
-
-Output:
-
-a = 10, b = 5
-
-
 
 2. Sorting an Array (Ascending and Descending)
 Easiest Code (using sort and rsort)
