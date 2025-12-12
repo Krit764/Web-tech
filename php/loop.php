@@ -1,24 +1,62 @@
-<style>
-    
-#box{
-        height: 50px;
-        width: 50px;
-        background-color: red;
-        margin-bottom: 20px;
-        display:inline-block;
-        margin-right: 10px;
-    }
-</style>
- 
-
+1. Swap Two Variables Without Using a Third Variable
+PHP Code (Arithmetic Method)
 <?php
-$num=1;
-for($row = 1; $row<=4; $row++){
-    for($col=1; $col<=4; $col++){
-        echo"<div id='box'>$num</div>";
-        $num++;
-    }
-    echo "<br>";
+$a = 5;
+$b = 10;
+
+$a = $a + $b;
+$b = $a - $b;
+$a = $a - $b;
+
+echo "a = $a, b = $b";
+?>
+
+
+Output:
+
+a = 10, b = 5
+
+
+Swap two variables without using a third variable
+
+Sort an array (any method)
+1. Swap Two Variables Without Using a Third Variable
+PHP Code (Arithmetic Method)
+<?php
+$a = 5;
+$b = 10;
+
+$a = $a + $b;
+$b = $a - $b;
+$a = $a - $b;
+
+echo "a = $a, b = $b";
+?>
+
+
+Output:
+
+a = 10, b = 5
+
+
+
+2. Sorting an Array (Ascending and Descending)
+Easiest Code (using sort and rsort)
+<?php
+$arr = array(5, 1, 9, 3, 2);
+
+// Ascending
+sort($arr);
+echo "Ascending: ";
+for ($i = 0; $i < count($arr); $i++) {
+    echo $arr[$i] . " ";
+}
+
+// Descending
+rsort($arr);
+echo "<br>Descending: ";
+for ($i = 0; $i < count($arr); $i++) {
+    echo $arr[$i] . " ";
 }
 ?>
 
